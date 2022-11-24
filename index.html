@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./Ozi.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>GABRIEL HEAVEN OZIOMA</h1>
+
+      <p>It's going to be an unmatchable experience working with me</p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+      <p>
+        I'm going to give you just a little juicy detail about myself.<br>
+        I'm Organized
+        and dependable successful at managing multiple priorities with a
+        positive attitude. willing to take on added responsibilities to meet
+        team goals.
+      </p>
+      <p>
+        I'm FASTIDIOUS
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Wanna know more?<br>
+        I'm 
+        Detail-oriented, organized, and meticulous, working at a
+        fast pace to meet tight deadlines enthusiastic team player ready to
+        contribute to company success. complex problem solver with an analytical
+        and driven mindset. dedicated to achieving demanding development
+        objectives according to tight schedules while producing impeccable codes
+      </p>
+
+      <h4>Benefits</h4>
+      <ul>
+        <li>Success of running the company unsupervised</li>
+        <li>Worth every penny of investment</li>
+        <li>Tailored Customer Support and codes</li>
+      </ul>
+
+      <p>
+        <h1>SKILLS</h1>
+       <ul>
+        <li>Web Development [JavaScript, ReactJs]</li>
+        <li>Excellent communication skills</li>
+        <li>Planning and implementation</li>
+        <li>Excellent problem-solving abilities</li>
+        <li>ability to deliver and work under different conditions</li>
+        <li>Competent in resolving complex and ambiguous issues</li>
+        <li>Customer Service Personnel</li>
+        <li>Active Listening</li>
+        <li>Teamwork and Collaboration</li>
+        <li>Self-Motivated</li>
+        <li>Attention to Detail</li>
+        <li>Interpersonal Communication</li>
+        <li>Flexible and Adaptable</li>
+       </ul>
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
